@@ -1,4 +1,4 @@
-#import "@preview/aurora-poster:0.1.0": poster, poster-columns, poster-section, callout
+#import "@preview/clarion-poster:0.1.0": poster, poster-columns, poster-section, callout
 
 // This starter uses fictional sample content. Replace it with your own research.
 // Pass image(...) values here so your replacement files resolve in this project.
