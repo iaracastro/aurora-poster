@@ -1,17 +1,19 @@
-Aurora Poster is a reusable A0 portrait research poster for conference sessions,
+## clarion-poster
+
+Clarion Poster is a reusable A0 portrait research poster for conference sessions,
 university showcases, and other large-format academic presentations. It uses
 a two-column structure, numbered navy headings, compact
 tables, figures, and colored takeaway boxes. The included starter uses clearly
 marked fictional data and original placeholder artwork.
 
-![The initialized Aurora Poster starter](thumbnail.png)
+![The initialized Clarion Poster starter](thumbnail.png)
 
 ## Start a poster
 
 After the package is published on Typst Universe, initialize a project with:
 
 ```sh
-typst init @preview/aurora-poster:0.1.0 my-poster
+typst init @preview/clarion-poster:0.1.0 my-poster
 cd my-poster
 typst compile main.typ
 ```
@@ -25,7 +27,7 @@ not research results.
 You can also import the styling into an existing Typst document:
 
 ```typst
-#import "@preview/aurora-poster:0.1.0": poster, poster-columns, poster-section, callout
+#import "@preview/clarion-poster:0.1.0": poster, poster-columns, poster-section, callout
 
 #show: poster.with(
   title: [A concise research title],
@@ -83,12 +85,12 @@ and image widths to keep the layout balanced.
 
 ## Before Universe publication
 
-The `@preview/aurora-poster:0.1.0` import is the final public import path. It
+The `@preview/clarion-poster:0.1.0` import is the final public import path. It
 becomes downloadable only after Typst Universe accepts the package. To test a
 checkout before publication, copy the repository into a local package path at
-`preview/aurora-poster/0.1.0`, then compile the starter with
+`preview/clarion-poster/0.1.0`, then compile the starter with
 `typst compile --package-path <package-path> template/main.typ`. You can also
-run `typst init @preview/aurora-poster:0.1.0 --package-path <package-path>`
+run `typst init @preview/clarion-poster:0.1.0 --package-path <package-path>`
 against that local copy.
 
 ## License
