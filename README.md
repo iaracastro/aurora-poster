@@ -1,6 +1,6 @@
 Aurora Poster is a reusable A0 portrait research poster for conference sessions,
-university showcases, and other large-format academic presentations. It keeps
-the source poster's two-column structure, numbered navy headings, compact
+university showcases, and other large-format academic presentations. It uses
+a two-column structure, numbered navy headings, compact
 tables, figures, and colored takeaway boxes. The included starter uses clearly
 marked fictional data and original placeholder artwork.
 
@@ -32,7 +32,6 @@ You can also import the styling into an existing Typst document:
   authors: [First Author, Second Author],
   affiliations: [Your institution],
   contact: [contact\@example.org],
-  institution-logo: image("assets/my-logo.svg", height: 60mm),
 )
 
 #poster-columns(
@@ -76,8 +75,8 @@ findings. Both helpers accept ordinary Typst content, so tables, figures, math,
 and links can be placed inside a section.
 
 The default `Libertinus Serif` font is available with Typst, so no extra font
-installation is required. If you prefer the source poster's requested
-`Libertinus Sans`, install that font in your Typst environment and pass
+installation is required. If you prefer a sans-serif look, install
+`Libertinus Sans` in your Typst environment and pass
 `font: "Libertinus Sans"` to `poster.with(...)`. Other installed fonts can be
 used the same way. Changing the page dimensions may require changing type sizes
 and image widths to keep the layout balanced.
