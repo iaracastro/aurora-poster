@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="350" viewBox="0 0 960 350">
+  <rect width="960" height="350" rx="20" fill="#EAF4F6"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="48" y="72" width="230" height="206" rx="22" fill="#003B70"/>
+    <rect x="365" y="72" width="230" height="206" rx="22" fill="#0D669E"/>
+    <rect x="682" y="72" width="230" height="206" rx="22" fill="#88B93B"/>
+    <path d="M296 175h52m-17-16 17 16-17 16M613 175h52m-17-16 17 16-17 16" fill="none" stroke="#003B70" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="163" y="155" fill="white" font-size="39" font-weight="700">Observe</text>
+    <text x="163" y="207" fill="white" font-size="25">streets</text>
+    <text x="480" y="155" fill="white" font-size="39" font-weight="700">Analyze</text>
+    <text x="480" y="207" fill="white" font-size="25">patterns</text>
+    <text x="797" y="155" fill="#153047" font-size="39" font-weight="700">Prioritize</text>
+    <text x="797" y="207" fill="#153047" font-size="25">action</text>
+  </g>
+</svg>

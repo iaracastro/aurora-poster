@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+  <rect width="960" height="460" fill="white"/>
+  <g stroke="#C8D5DE" stroke-width="2">
+    <path d="M100 70h800M100 150h800M100 230h800M100 310h800M100 390h800"/>
+  </g>
+  <path d="M100 70v320h800" fill="none" stroke="#2C3E4F" stroke-width="4"/>
+  <rect x="178" y="116" width="150" height="274" rx="7" fill="#0D669E"/>
+  <rect x="405" y="170" width="150" height="220" rx="7" fill="#4C99B0"/>
+  <rect x="632" y="222" width="150" height="168" rx="7" fill="#88B93B"/>
+  <g fill="#153047" font-family="Arial, sans-serif" font-size="29" text-anchor="middle">
+    <text x="253" y="434">Open</text>
+    <text x="480" y="434">Mixed</text>
+    <text x="707" y="434">Shaded</text>
+  </g>
+  <g fill="#153047" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">
+    <text x="253" y="99">34.1°</text>
+    <text x="480" y="153">31.7°</text>
+    <text x="707" y="205">29.8°</text>
+  </g>
+</svg>
