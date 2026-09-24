@@ -1,5 +1,5 @@
 [package]
-name = "aurora-poster"
+name = "clarion-poster"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Iara Cristina <@iaracastro>"]
