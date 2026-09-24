@@ -1,0 +1,16 @@
+[package]
+name = "aurora-poster"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Iara Cristina <@iaracastro>"]
+license = "MIT"
+description = "Two-column academic research posters on A0 paper."
+repository = "https://github.com/iaracastro/aurora-poster"
+keywords = ["poster", "academic", "research", "conference"]
+categories = ["poster"]
+compiler = "0.15.0"
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
