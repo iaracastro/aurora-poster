@@ -1,4 +1,4 @@
-// Aurora Poster: an A0 portrait research poster with a two-column body.
+// Clarion Poster: an A0 portrait research poster with a two-column body.
 // Pass image(...) content from the caller so images resolve in the user's project.
 
 #let navy = rgb("#003B70")
